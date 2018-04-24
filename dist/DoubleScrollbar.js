@@ -155,7 +155,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function render() {
 	      var overflowX = "auto";
 	      if (this.props.alwaysOn) {
-	        overflowX = "show";
+	        overflowX = "scroll";
 	      }
 	      var outerDivStyle = { overflowX: overflowX, overflowY: "hidden" };
 	      var innerDivStyle = { paddingTop: "1px", width: this.state.width };

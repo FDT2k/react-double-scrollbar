@@ -68,7 +68,7 @@ class DoubleScrollbar extends React.Component {
   render() {
     let overflowX = "auto";
     if(this.props.alwaysOn){
-      overflowX = "show";
+      overflowX = "scroll";
     }
     let outerDivStyle = { overflowX: overflowX, overflowY: "hidden" };
     let innerDivStyle = { paddingTop: "1px", width: this.state.width };
